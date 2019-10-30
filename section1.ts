@@ -27,3 +27,7 @@ function getInventoryItem(trackingNumber: string): {
 }
 
 console.log(getInventoryItem("Testing"))
+
+// Using the any type will allow you to cast any type to any other - like the normal JS
+let originalCost: any = 425;
+originalCost = "a lot of money"
